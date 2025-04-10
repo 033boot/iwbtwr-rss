@@ -18,7 +18,10 @@ entries = [
 entries.reverse()
 
 
-rss = ET.Element("rss", version="2.0")
+rss = ET.Element("rss", {
+    "version": "2.0",
+    "xmlns:atom": "http://www.w3.org/2005/Atom"
+})
 ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
 channel = ET.SubElement(rss, "channel")
 ET.SubElement(channel, "atom:link", {
