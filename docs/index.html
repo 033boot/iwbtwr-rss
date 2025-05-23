@@ -15,14 +15,14 @@
       </div>
       <div id="r1" style="background-color:whitesmoke; transform: rotate(-20deg); position: absolute; height:400px; width: 100px; top:-30px; left:150px; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.5) 100%);"></div>
       <div id="r2" style="background-color:whitesmoke; transform: rotate(-20deg); position: absolute; height:350px; width: 50px; top:-30px; left:260px; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 22%, rgba(255, 255, 255, 0.5) 100%);"></div>
-      <div style="background-image: url('/images/guys.gif'); position: absolute; bottom:0; right:0; height:200px; width:325px"></div>
+      <div style="background-image: url('images/guys.gif'); position: absolute; bottom:0; right:0; height:200px; width:325px"></div>
     </div>
 
-    <h1><img src="/images/fish.png" alt="image of a fish" title="blub blub"><a href="rss.xml"> THE FEED </a><img src="/images/fish.png" alt="image of a fish" title="if anythings wrong email me at 033boot@gmail.com" style="transform: rotate(180deg);"></h1>
+    <h1><img src="images/fish.png" alt="image of a fish" title="blub blub"><a href="rss.xml"> THE FEED </a><img src="images/fish.png" alt="image of a fish" title="if anythings wrong email me at 033boot@gmail.com" style="transform: rotate(180deg);"></h1>
       <p>Unofficial RSS feed for I Was Born To Work Retail by PEAR哥<br>
         Auto-generated from borntoworkretail.com/js/comic_settings.js<br>
         Updates every hour</p>
-    <a href="http://validator.w3.org/feed/check.cgi?url=https%3A//033boot.github.io/iwbtwr-rss/rss.xml"><img src="/images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed"/></a>
+    <a href="http://validator.w3.org/feed/check.cgi?url=https%3A//033boot.github.io/iwbtwr-rss/rss.xml"><img src="images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed"/></a>
 
     <script>
       const cont = document.getElementById('cont')
@@ -54,7 +54,7 @@
           div.id = `fish${i}`
           div.style.cssText = 'position: absolute; width: 1px; height: 1px'
           const img = document.createElement('img')
-          img.src = '/images/fish.png'
+          img.src = 'images/fish.png'
           img.className = 'image'
           img.id = i
           img.style.cssText = `margin-top: -50px; margin-left: -50px; padding:40px 30px; filter: hue-rotate(${50/fishno*i-30}deg)`
